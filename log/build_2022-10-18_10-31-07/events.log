@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.001256] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002317] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo')])}
+[0.002453] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.098741] (-) TimerEvent: {}
+[0.157289] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.158808] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.160990] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/ws01_plumbing/build/cpp01_topic', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8397e94e-4132-4c92-ac25-bab0cf95891c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0f99f9dfa2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/ws01_plumbing/build/cpp01_topic'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.198898] (-) TimerEvent: {}
+[0.208188] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299087] (-) TimerEvent: {}
+[0.399578] (-) TimerEvent: {}
+[0.490492] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499774] (-) TimerEvent: {}
+[0.600315] (-) TimerEvent: {}
+[0.700966] (-) TimerEvent: {}
+[0.781670] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.786934] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.797082] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801128] (-) TimerEvent: {}
+[0.823539] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.850078] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901366] (-) TimerEvent: {}
+[0.956196] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.960266] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001605] (-) TimerEvent: {}
+[1.102243] (-) TimerEvent: {}
+[1.202746] (-) TimerEvent: {}
+[1.303423] (-) TimerEvent: {}
+[1.404006] (-) TimerEvent: {}
+[1.504652] (-) TimerEvent: {}
+[1.605182] (-) TimerEvent: {}
+[1.705704] (-) TimerEvent: {}
+[1.806176] (-) TimerEvent: {}
+[1.906675] (-) TimerEvent: {}
+[2.007253] (-) TimerEvent: {}
+[2.107769] (-) TimerEvent: {}
+[2.208264] (-) TimerEvent: {}
+[2.308775] (-) TimerEvent: {}
+[2.409347] (-) TimerEvent: {}
+[2.509880] (-) TimerEvent: {}
+[2.610454] (-) TimerEvent: {}
+[2.710986] (-) TimerEvent: {}
+[2.811472] (-) TimerEvent: {}
+[2.911997] (-) TimerEvent: {}
+[3.012576] (-) TimerEvent: {}
+[3.113106] (-) TimerEvent: {}
+[3.213706] (-) TimerEvent: {}
+[3.314349] (-) TimerEvent: {}
+[3.414914] (-) TimerEvent: {}
+[3.515468] (-) TimerEvent: {}
+[3.616384] (-) TimerEvent: {}
+[3.717127] (-) TimerEvent: {}
+[3.817697] (-) TimerEvent: {}
+[3.918290] (-) TimerEvent: {}
+[4.018888] (-) TimerEvent: {}
+[4.119418] (-) TimerEvent: {}
+[4.220041] (-) TimerEvent: {}
+[4.320657] (-) TimerEvent: {}
+[4.421256] (-) TimerEvent: {}
+[4.521858] (-) TimerEvent: {}
+[4.622424] (-) TimerEvent: {}
+[4.722967] (-) TimerEvent: {}
+[4.823569] (-) TimerEvent: {}
+[4.924103] (-) TimerEvent: {}
+[5.024672] (-) TimerEvent: {}
+[5.125272] (-) TimerEvent: {}
+[5.225862] (-) TimerEvent: {}
+[5.326419] (-) TimerEvent: {}
+[5.426955] (-) TimerEvent: {}
+[5.527519] (-) TimerEvent: {}
+[5.628087] (-) TimerEvent: {}
+[5.728665] (-) TimerEvent: {}
+[5.829263] (-) TimerEvent: {}
+[5.929847] (-) TimerEvent: {}
+[6.030509] (-) TimerEvent: {}
+[6.131080] (-) TimerEvent: {}
+[6.233690] (-) TimerEvent: {}
+[6.335796] (-) TimerEvent: {}
+[6.436349] (-) TimerEvent: {}
+[6.536801] (-) TimerEvent: {}
+[6.637378] (-) TimerEvent: {}
+[6.737925] (-) TimerEvent: {}
+[6.838471] (-) TimerEvent: {}
+[6.938939] (-) TimerEvent: {}
+[7.039502] (-) TimerEvent: {}
+[7.140081] (-) TimerEvent: {}
+[7.240646] (-) TimerEvent: {}
+[7.341205] (-) TimerEvent: {}
+[7.441842] (-) TimerEvent: {}
+[7.542400] (-) TimerEvent: {}
+[7.642913] (-) TimerEvent: {}
+[7.743455] (-) TimerEvent: {}
+[7.844000] (-) TimerEvent: {}
+[7.944602] (-) TimerEvent: {}
+[8.045196] (-) TimerEvent: {}
+[8.145704] (-) TimerEvent: {}
+[8.246313] (-) TimerEvent: {}
+[8.286893] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.346511] (-) TimerEvent: {}
+[8.447115] (-) TimerEvent: {}
+[8.547650] (-) TimerEvent: {}
+[8.568648] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[8.600803] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.647827] (-) TimerEvent: {}
+[8.711111] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.711668] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.711961] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.715057] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.716368] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.716743] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.717121] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.719269] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.747988] (-) TimerEvent: {}
+[8.768481] (cpp01_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[8.775489] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaxin/ws01_plumbing/build/cpp01_topic\n'}
+[8.811812] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo03_talker_stu\x1b[0m\n'}
+[8.814526] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo04_listener_stu\x1b[0m\n'}
+[8.834700] (cpp01_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo05_talker_listener.dir/src/demo05_talker_listener.cpp.o\x1b[0m\n'}
+[8.845714] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target demo04_listener_stu\n'}
+[8.848169] (-) TimerEvent: {}
+[8.852342] (cpp01_topic) StdoutLine: {'line': b'[ 83%] Built target demo03_talker_stu\n'}
+[8.948352] (-) TimerEvent: {}
+[9.048875] (-) TimerEvent: {}
+[9.149382] (-) TimerEvent: {}
+[9.249947] (-) TimerEvent: {}
+[9.350549] (-) TimerEvent: {}
+[9.451018] (-) TimerEvent: {}
+[9.551604] (-) TimerEvent: {}
+[9.652183] (-) TimerEvent: {}
+[9.752820] (-) TimerEvent: {}
+[9.853441] (-) TimerEvent: {}
+[9.954078] (-) TimerEvent: {}
+[10.054596] (-) TimerEvent: {}
+[10.155228] (-) TimerEvent: {}
+[10.255760] (-) TimerEvent: {}
+[10.356361] (-) TimerEvent: {}
+[10.456965] (-) TimerEvent: {}
+[10.557539] (-) TimerEvent: {}
+[10.658093] (-) TimerEvent: {}
+[10.758688] (-) TimerEvent: {}
+[10.859258] (-) TimerEvent: {}
+[10.959821] (-) TimerEvent: {}
+[11.060387] (-) TimerEvent: {}
+[11.160969] (-) TimerEvent: {}
+[11.261532] (-) TimerEvent: {}
+[11.362127] (-) TimerEvent: {}
+[11.462737] (-) TimerEvent: {}
+[11.563352] (-) TimerEvent: {}
+[11.663885] (-) TimerEvent: {}
+[11.764392] (-) TimerEvent: {}
+[11.864887] (-) TimerEvent: {}
+[11.965459] (-) TimerEvent: {}
+[12.065924] (-) TimerEvent: {}
+[12.166478] (-) TimerEvent: {}
+[12.267044] (-) TimerEvent: {}
+[12.367604] (-) TimerEvent: {}
+[12.468185] (-) TimerEvent: {}
+[12.568723] (-) TimerEvent: {}
+[12.669215] (-) TimerEvent: {}
+[12.769832] (-) TimerEvent: {}
+[12.870531] (-) TimerEvent: {}
+[12.970993] (-) TimerEvent: {}
+[13.071550] (-) TimerEvent: {}
+[13.172155] (-) TimerEvent: {}
+[13.272723] (-) TimerEvent: {}
+[13.373293] (-) TimerEvent: {}
+[13.473876] (-) TimerEvent: {}
+[13.574481] (-) TimerEvent: {}
+[13.675062] (-) TimerEvent: {}
+[13.775660] (-) TimerEvent: {}
+[13.876298] (-) TimerEvent: {}
+[13.976919] (-) TimerEvent: {}
+[14.077579] (-) TimerEvent: {}
+[14.178157] (-) TimerEvent: {}
+[14.278726] (-) TimerEvent: {}
+[14.379408] (-) TimerEvent: {}
+[14.480026] (-) TimerEvent: {}
+[14.580583] (-) TimerEvent: {}
+[14.681097] (-) TimerEvent: {}
+[14.781730] (-) TimerEvent: {}
+[14.882321] (-) TimerEvent: {}
+[14.982905] (-) TimerEvent: {}
+[15.083490] (-) TimerEvent: {}
+[15.184017] (-) TimerEvent: {}
+[15.284589] (-) TimerEvent: {}
+[15.385166] (-) TimerEvent: {}
+[15.485751] (-) TimerEvent: {}
+[15.586411] (-) TimerEvent: {}
+[15.686982] (-) TimerEvent: {}
+[15.787626] (-) TimerEvent: {}
+[15.888340] (-) TimerEvent: {}
+[15.988895] (-) TimerEvent: {}
+[16.089490] (-) TimerEvent: {}
+[16.190226] (-) TimerEvent: {}
+[16.290802] (-) TimerEvent: {}
+[16.391388] (-) TimerEvent: {}
+[16.492034] (-) TimerEvent: {}
+[16.592640] (-) TimerEvent: {}
+[16.693192] (-) TimerEvent: {}
+[16.793769] (-) TimerEvent: {}
+[16.894352] (-) TimerEvent: {}
+[16.994956] (-) TimerEvent: {}
+[17.095509] (-) TimerEvent: {}
+[17.196087] (-) TimerEvent: {}
+[17.296647] (-) TimerEvent: {}
+[17.397222] (-) TimerEvent: {}
+[17.497837] (-) TimerEvent: {}
+[17.598420] (-) TimerEvent: {}
+[17.699040] (-) TimerEvent: {}
+[17.799612] (-) TimerEvent: {}
+[17.900160] (-) TimerEvent: {}
+[18.000704] (-) TimerEvent: {}
+[18.101217] (-) TimerEvent: {}
+[18.201762] (-) TimerEvent: {}
+[18.302296] (-) TimerEvent: {}
+[18.402904] (-) TimerEvent: {}
+[18.503471] (-) TimerEvent: {}
+[18.604038] (-) TimerEvent: {}
+[18.704611] (-) TimerEvent: {}
+[18.805173] (-) TimerEvent: {}
+[18.905746] (-) TimerEvent: {}
+[19.006321] (-) TimerEvent: {}
+[19.106864] (-) TimerEvent: {}
+[19.207421] (-) TimerEvent: {}
+[19.307994] (-) TimerEvent: {}
+[19.408571] (-) TimerEvent: {}
+[19.509212] (-) TimerEvent: {}
+[19.609773] (-) TimerEvent: {}
+[19.710351] (-) TimerEvent: {}
+[19.810929] (-) TimerEvent: {}
+[19.911518] (-) TimerEvent: {}
+[20.012050] (-) TimerEvent: {}
+[20.112599] (-) TimerEvent: {}
+[20.213150] (-) TimerEvent: {}
+[20.313699] (-) TimerEvent: {}
+[20.414333] (-) TimerEvent: {}
+[20.514931] (-) TimerEvent: {}
+[20.615517] (-) TimerEvent: {}
+[20.716131] (-) TimerEvent: {}
+[20.816694] (-) TimerEvent: {}
+[20.917319] (-) TimerEvent: {}
+[21.017889] (-) TimerEvent: {}
+[21.118481] (-) TimerEvent: {}
+[21.219060] (-) TimerEvent: {}
+[21.319633] (-) TimerEvent: {}
+[21.420237] (-) TimerEvent: {}
+[21.520825] (-) TimerEvent: {}
+[21.621406] (-) TimerEvent: {}
+[21.721953] (-) TimerEvent: {}
+[21.822520] (-) TimerEvent: {}
+[21.923099] (-) TimerEvent: {}
+[22.023731] (-) TimerEvent: {}
+[22.124357] (-) TimerEvent: {}
+[22.225004] (-) TimerEvent: {}
+[22.325899] (-) TimerEvent: {}
+[22.426530] (-) TimerEvent: {}
+[22.527094] (-) TimerEvent: {}
+[22.627644] (-) TimerEvent: {}
+[22.728258] (-) TimerEvent: {}
+[22.828854] (-) TimerEvent: {}
+[22.929507] (-) TimerEvent: {}
+[23.030099] (-) TimerEvent: {}
+[23.130647] (-) TimerEvent: {}
+[23.231185] (-) TimerEvent: {}
+[23.331728] (-) TimerEvent: {}
+[23.432311] (-) TimerEvent: {}
+[23.532876] (-) TimerEvent: {}
+[23.633526] (-) TimerEvent: {}
+[23.734124] (-) TimerEvent: {}
+[23.834637] (-) TimerEvent: {}
+[23.935167] (-) TimerEvent: {}
+[24.035709] (-) TimerEvent: {}
+[24.136285] (-) TimerEvent: {}
+[24.236988] (-) TimerEvent: {}
+[24.337552] (-) TimerEvent: {}
+[24.438159] (-) TimerEvent: {}
+[24.538741] (-) TimerEvent: {}
+[24.639275] (-) TimerEvent: {}
+[24.739885] (-) TimerEvent: {}
+[24.791417] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo05_talker_listener\x1b[0m\n'}
+[24.840060] (-) TimerEvent: {}
+[24.940650] (-) TimerEvent: {}
+[25.041224] (-) TimerEvent: {}
+[25.141891] (-) TimerEvent: {}
+[25.242461] (-) TimerEvent: {}
+[25.343018] (-) TimerEvent: {}
+[25.443554] (-) TimerEvent: {}
+[25.544077] (-) TimerEvent: {}
+[25.644614] (-) TimerEvent: {}
+[25.745112] (-) TimerEvent: {}
+[25.751759] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo05_talker_listener\n'}
+[25.769696] (cpp01_topic) CommandEnded: {'returncode': 0}
+[25.819557] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[25.831788] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiaxin/ws01_plumbing/build/cpp01_topic'], 'cwd': '/home/jiaxin/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8397e94e-4132-4c92-ac25-bab0cf95891c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0f99f9dfa2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/ws01_plumbing/build/cpp01_topic'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[25.843508] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.843990] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu\n'}
+[25.844524] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu\n'}
+[25.845015] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo05_talker_listener\n'}
+[25.845227] (-) TimerEvent: {}
+[25.851181] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo05_talker_listener" to ""\n'}
+[25.852162] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[25.852814] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[25.853198] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[25.853709] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[25.854094] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[25.854518] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[25.863041] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[25.863311] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[25.863464] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[25.863632] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[25.863766] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[25.863895] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[25.864078] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[25.864268] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[25.864399] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[25.866196] (cpp01_topic) CommandEnded: {'returncode': 0}
+[25.945453] (-) TimerEvent: {}
+[26.015933] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[26.020984] (-) EventReactorShutdown: {}

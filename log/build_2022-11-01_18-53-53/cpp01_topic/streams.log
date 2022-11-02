@@ -1,0 +1,15 @@
+[0.147s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target demo05_test_pub[0m
+[0.231s] [ 33%] Built target demo04_listener_stu
+[0.237s] [ 66%] Built target demo03_talker_stu
+[0.245s] [ 83%] [32mBuilding CXX object CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o[0m
+[5.177s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:[m[K In member function ‘[01m[Kvoid TalkerStu::on_timer()[m[K’:
+[5.177s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:33:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kbase_interfaces_demo::msg::Student_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+[5.178s]    33 |       stu.height = [01;31m[Kthis->get_parameter("height")[m[K;;
+[5.178s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.178s]       |                                       [01;31m[K|[m[K
+[5.179s]       |                                       [01;31m[Krclcpp::Parameter[m[K
+[6.906s] gmake[2]: *** [CMakeFiles/demo05_test_pub.dir/build.make:76: CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o] Error 1
+[6.906s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo05_test_pub.dir/all] Error 2
+[6.907s] gmake: *** [Makefile:146: all] Error 2
+[6.910s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

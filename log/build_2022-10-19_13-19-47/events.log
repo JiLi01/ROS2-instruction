@@ -1,0 +1,464 @@
+[0.000000] (-) TimerEvent: {}
+[0.000844] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.003368] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.004777] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.011853] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.056350] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.058752] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '/home/jiaxin/ws01_plumbing/src/cpp04_param', '-DCMAKE_INSTALL_PREFIX=/home/jiaxin/ws01_plumbing/install/cpp04_param'], 'cwd': '/home/jiaxin/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('OLDPWD', '/home/jiaxin/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9aa76d29-5efb-494d-8ed2-f3d78a182d65.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0f99f9dfa2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/ws01_plumbing/build/cpp04_param'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.099328] (-) TimerEvent: {}
+[0.199803] (-) TimerEvent: {}
+[0.300395] (-) TimerEvent: {}
+[0.400922] (-) TimerEvent: {}
+[0.511168] (-) TimerEvent: {}
+[0.611721] (-) TimerEvent: {}
+[0.714804] (-) TimerEvent: {}
+[0.823018] (-) TimerEvent: {}
+[0.929399] (-) TimerEvent: {}
+[1.029944] (-) TimerEvent: {}
+[1.130503] (-) TimerEvent: {}
+[1.231082] (-) TimerEvent: {}
+[1.331708] (-) TimerEvent: {}
+[1.432281] (-) TimerEvent: {}
+[1.461529] (cpp04_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.532442] (-) TimerEvent: {}
+[1.633062] (-) TimerEvent: {}
+[1.733640] (-) TimerEvent: {}
+[1.834234] (-) TimerEvent: {}
+[1.934918] (-) TimerEvent: {}
+[2.035564] (-) TimerEvent: {}
+[2.136553] (-) TimerEvent: {}
+[2.237456] (-) TimerEvent: {}
+[2.297887] (cpp04_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[2.337604] (-) TimerEvent: {}
+[2.438200] (-) TimerEvent: {}
+[2.538776] (-) TimerEvent: {}
+[2.639516] (-) TimerEvent: {}
+[2.740536] (-) TimerEvent: {}
+[2.753189] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.840704] (-) TimerEvent: {}
+[2.942073] (-) TimerEvent: {}
+[3.042535] (-) TimerEvent: {}
+[3.064005] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.074776] (cpp04_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.075474] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.077497] (cpp04_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.082425] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.142730] (-) TimerEvent: {}
+[3.243238] (-) TimerEvent: {}
+[3.343849] (-) TimerEvent: {}
+[3.362195] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.385602] (cpp04_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.386218] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.387314] (cpp04_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.402814] (cpp04_param) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.444023] (-) TimerEvent: {}
+[3.544686] (-) TimerEvent: {}
+[3.645287] (-) TimerEvent: {}
+[3.746952] (-) TimerEvent: {}
+[3.847702] (-) TimerEvent: {}
+[3.906291] (cpp04_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.947886] (-) TimerEvent: {}
+[4.048412] (-) TimerEvent: {}
+[4.067145] (cpp04_param) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.148597] (-) TimerEvent: {}
+[4.249645] (-) TimerEvent: {}
+[4.350296] (-) TimerEvent: {}
+[4.450910] (-) TimerEvent: {}
+[4.551487] (-) TimerEvent: {}
+[4.566305] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.580678] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.608660] (cpp04_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.642572] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.651639] (-) TimerEvent: {}
+[4.680502] (cpp04_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.751801] (-) TimerEvent: {}
+[4.815767] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.824044] (cpp04_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.851995] (-) TimerEvent: {}
+[4.952547] (-) TimerEvent: {}
+[5.053167] (-) TimerEvent: {}
+[5.153732] (-) TimerEvent: {}
+[5.254311] (-) TimerEvent: {}
+[5.354895] (-) TimerEvent: {}
+[5.455521] (-) TimerEvent: {}
+[5.556370] (-) TimerEvent: {}
+[5.657082] (-) TimerEvent: {}
+[5.757899] (-) TimerEvent: {}
+[5.858929] (-) TimerEvent: {}
+[5.959622] (-) TimerEvent: {}
+[6.060174] (-) TimerEvent: {}
+[6.160731] (-) TimerEvent: {}
+[6.261192] (-) TimerEvent: {}
+[6.361866] (-) TimerEvent: {}
+[6.462527] (-) TimerEvent: {}
+[6.563484] (-) TimerEvent: {}
+[6.664043] (-) TimerEvent: {}
+[6.764606] (-) TimerEvent: {}
+[6.865137] (-) TimerEvent: {}
+[6.944849] (cpp04_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.965366] (-) TimerEvent: {}
+[7.066071] (-) TimerEvent: {}
+[7.166718] (-) TimerEvent: {}
+[7.267270] (-) TimerEvent: {}
+[7.367858] (-) TimerEvent: {}
+[7.468461] (-) TimerEvent: {}
+[7.569062] (-) TimerEvent: {}
+[7.669648] (-) TimerEvent: {}
+[7.770328] (-) TimerEvent: {}
+[7.870949] (-) TimerEvent: {}
+[7.971526] (-) TimerEvent: {}
+[8.072189] (-) TimerEvent: {}
+[8.172674] (-) TimerEvent: {}
+[8.273157] (-) TimerEvent: {}
+[8.373660] (-) TimerEvent: {}
+[8.474208] (-) TimerEvent: {}
+[8.574783] (-) TimerEvent: {}
+[8.675369] (-) TimerEvent: {}
+[8.775953] (-) TimerEvent: {}
+[8.876482] (-) TimerEvent: {}
+[8.963741] (cpp04_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.976662] (-) TimerEvent: {}
+[9.077198] (-) TimerEvent: {}
+[9.177820] (-) TimerEvent: {}
+[9.278499] (-) TimerEvent: {}
+[9.379238] (-) TimerEvent: {}
+[9.479660] (-) TimerEvent: {}
+[9.580259] (-) TimerEvent: {}
+[9.680937] (-) TimerEvent: {}
+[9.781591] (-) TimerEvent: {}
+[9.882151] (-) TimerEvent: {}
+[9.982709] (-) TimerEvent: {}
+[10.083297] (-) TimerEvent: {}
+[10.183921] (-) TimerEvent: {}
+[10.284597] (-) TimerEvent: {}
+[10.385232] (-) TimerEvent: {}
+[10.485953] (-) TimerEvent: {}
+[10.586583] (-) TimerEvent: {}
+[10.687199] (-) TimerEvent: {}
+[10.787765] (-) TimerEvent: {}
+[10.888355] (-) TimerEvent: {}
+[10.988886] (-) TimerEvent: {}
+[11.089439] (-) TimerEvent: {}
+[11.190061] (-) TimerEvent: {}
+[11.290679] (-) TimerEvent: {}
+[11.391393] (-) TimerEvent: {}
+[11.491996] (-) TimerEvent: {}
+[11.592610] (-) TimerEvent: {}
+[11.693230] (-) TimerEvent: {}
+[11.793863] (-) TimerEvent: {}
+[11.894545] (-) TimerEvent: {}
+[11.995189] (-) TimerEvent: {}
+[12.095837] (-) TimerEvent: {}
+[12.196486] (-) TimerEvent: {}
+[12.297096] (-) TimerEvent: {}
+[12.397641] (-) TimerEvent: {}
+[12.498222] (-) TimerEvent: {}
+[12.598853] (-) TimerEvent: {}
+[12.699474] (-) TimerEvent: {}
+[12.800063] (-) TimerEvent: {}
+[12.900734] (-) TimerEvent: {}
+[13.001465] (-) TimerEvent: {}
+[13.102083] (-) TimerEvent: {}
+[13.159969] (cpp04_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.202279] (-) TimerEvent: {}
+[13.302900] (-) TimerEvent: {}
+[13.403481] (-) TimerEvent: {}
+[13.423841] (cpp04_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.503698] (-) TimerEvent: {}
+[13.554542] (cpp04_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.555302] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jiaxin/ws01_plumbing/src/cpp04_param/include>\n'}
+[13.555843] (cpp04_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.557289] (cpp04_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.559241] (cpp04_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.559861] (cpp04_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.561232] (cpp04_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.568082] (cpp04_param) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.602452] (cpp04_param) StdoutLine: {'line': b'-- Generating done\n'}
+[13.603868] (-) TimerEvent: {}
+[13.608219] (cpp04_param) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaxin/ws01_plumbing/build/cpp04_param\n'}
+[13.625776] (cpp04_param) CommandEnded: {'returncode': 0}
+[13.627322] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[13.629316] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/ws01_plumbing/build/cpp04_param', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('OLDPWD', '/home/jiaxin/ws01_plumbing/src'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-9aa76d29-5efb-494d-8ed2-f3d78a182d65.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0f99f9dfa2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/ws01_plumbing/build/cpp04_param'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/ws01_plumbing/install/cpp01_topic:/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[13.723082] (-) TimerEvent: {}
+[13.790348] (cpp04_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o\x1b[0m\n'}
+[13.824193] (-) TimerEvent: {}
+[13.924726] (-) TimerEvent: {}
+[14.025353] (-) TimerEvent: {}
+[14.125859] (-) TimerEvent: {}
+[14.226467] (-) TimerEvent: {}
+[14.327078] (-) TimerEvent: {}
+[14.427622] (-) TimerEvent: {}
+[14.528198] (-) TimerEvent: {}
+[14.628793] (-) TimerEvent: {}
+[14.729413] (-) TimerEvent: {}
+[14.829965] (-) TimerEvent: {}
+[14.930490] (-) TimerEvent: {}
+[15.031366] (-) TimerEvent: {}
+[15.131897] (-) TimerEvent: {}
+[15.232491] (-) TimerEvent: {}
+[15.333020] (-) TimerEvent: {}
+[15.433536] (-) TimerEvent: {}
+[15.534105] (-) TimerEvent: {}
+[15.634762] (-) TimerEvent: {}
+[15.735420] (-) TimerEvent: {}
+[15.836008] (-) TimerEvent: {}
+[15.936586] (-) TimerEvent: {}
+[16.037200] (-) TimerEvent: {}
+[16.137840] (-) TimerEvent: {}
+[16.238628] (-) TimerEvent: {}
+[16.348065] (-) TimerEvent: {}
+[16.675451] (-) TimerEvent: {}
+[16.776096] (-) TimerEvent: {}
+[16.876716] (-) TimerEvent: {}
+[16.977326] (-) TimerEvent: {}
+[17.077956] (-) TimerEvent: {}
+[17.178555] (-) TimerEvent: {}
+[17.279049] (-) TimerEvent: {}
+[17.379583] (-) TimerEvent: {}
+[17.480198] (-) TimerEvent: {}
+[17.580822] (-) TimerEvent: {}
+[17.681401] (-) TimerEvent: {}
+[17.781898] (-) TimerEvent: {}
+[17.889144] (-) TimerEvent: {}
+[18.033948] (-) TimerEvent: {}
+[18.134796] (-) TimerEvent: {}
+[18.253221] (-) TimerEvent: {}
+[18.354533] (-) TimerEvent: {}
+[18.455676] (-) TimerEvent: {}
+[18.556328] (-) TimerEvent: {}
+[18.656994] (-) TimerEvent: {}
+[18.757645] (-) TimerEvent: {}
+[18.859175] (-) TimerEvent: {}
+[18.959787] (-) TimerEvent: {}
+[19.060585] (-) TimerEvent: {}
+[19.161165] (-) TimerEvent: {}
+[19.261756] (-) TimerEvent: {}
+[19.362476] (-) TimerEvent: {}
+[19.464651] (-) TimerEvent: {}
+[19.565198] (-) TimerEvent: {}
+[19.666653] (-) TimerEvent: {}
+[19.767180] (-) TimerEvent: {}
+[19.867863] (-) TimerEvent: {}
+[19.968497] (-) TimerEvent: {}
+[20.069123] (-) TimerEvent: {}
+[20.169681] (-) TimerEvent: {}
+[20.270260] (-) TimerEvent: {}
+[20.370803] (-) TimerEvent: {}
+[20.471281] (-) TimerEvent: {}
+[20.571903] (-) TimerEvent: {}
+[20.672528] (-) TimerEvent: {}
+[20.773338] (-) TimerEvent: {}
+[20.874355] (-) TimerEvent: {}
+[20.974985] (-) TimerEvent: {}
+[20.976770] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.977281] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[20.977568] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.978025] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.978361] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.978724] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.979085] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.979464] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.979837] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.980555] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.980937] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[20.981215] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMyParam::MyParam()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.981553] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.981932] (cpp04_param) StderrLine: {'line': b'   24 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.982318] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.982737] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.983475] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.984002] (cpp04_param) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.984323] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.987176] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.988247] (cpp04_param) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.989012] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.990338] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.991014] (cpp04_param) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.991307] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.992223] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.992591] (cpp04_param) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.992898] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.993113] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[20.993310] (cpp04_param) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.993501] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.993734] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[20.993952] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.994190] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[20.994512] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.994806] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.995048] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.995260] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.995756] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.995962] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.996092] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.996197] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.996311] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[20.996419] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.996525] (cpp04_param) StderrLine: {'line': b'   24 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.996730] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.996961] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.997184] (cpp04_param) StderrLine: {'line': b'   24 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(),"\xe5\x8f\x82\xe6\x95\xb0API\xe4\xbd\xbf\xe7\x94\xa8");\n'}
+[20.997404] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[20.997765] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[20.998054] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[20.998281] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[20.998501] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[20.998815] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[20.998988] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[20.999157] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[20.999327] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[20.999459] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[20.999583] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[20.999784] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[20.999936] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.000085] (cpp04_param) StderrLine: {'line': b'   31 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.000248] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.000395] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.000543] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.000756] (cpp04_param) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.000940] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.001119] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.001282] (cpp04_param) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.001446] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.001597] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.001795] (cpp04_param) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.002048] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.002506] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.003261] (cpp04_param) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.003834] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.004230] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.004627] (cpp04_param) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.005591] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.006029] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.006438] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.006850] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.007153] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.007533] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.007952] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.008313] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.008554] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.008696] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.008823] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.008924] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.009018] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[21.009114] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.009235] (cpp04_param) StderrLine: {'line': b'   31 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.009332] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.009508] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.009853] (cpp04_param) StderrLine: {'line': b'   31 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "car_name = %s", p1.as_string().c_str());\n'}
+[21.010156] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.010480] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.010801] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.011128] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.011482] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.011863] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.012047] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.012149] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.012229] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.012304] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.012377] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.012464] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[21.012728] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.013077] (cpp04_param) StderrLine: {'line': b'   32 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "height = %.2f", p2.as_double());\n'}
+[21.013351] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.013560] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.013791] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.014122] (cpp04_param) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "height = %.2f", p2.as_double());\n'}
+[21.014412] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.014648] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.014879] (cpp04_param) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "height = %.2f", p2.as_double());\n'}
+[21.015096] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.015360] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.015586] (cpp04_param) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "height = %.2f", p2.as_double());\n'}
+[21.015812] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.016020] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.016356] (cpp04_param) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "height = %.2f", p2.as_double());\n'}
+[21.016524] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.016674] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.016914] (cpp04_param) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "height = %.2f", p2.as_double());\n'}
+[21.017166] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.017516] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.017817] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.018212] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.018477] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.018750] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.019048] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.019396] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.019605] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.019868] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.020211] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.020609] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.020979] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[21.021389] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.021765] (cpp04_param) StderrLine: {'line': b'   32 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "height = %.2f", p2.as_double());\n'}
+[21.022135] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.022519] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.023378] (cpp04_param) StderrLine: {'line': b'   32 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "height = %.2f", p2.as_double());\n'}
+[21.023781] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.024276] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.024616] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.025035] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.025405] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.025813] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.026144] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.026574] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.026903] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.027280] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.027607] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.027996] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[21.028418] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.028755] (cpp04_param) StderrLine: {'line': b'   33 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "wheels = %ld", p3.as_int());\n'}
+[21.029083] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.029411] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.029752] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.030138] (cpp04_param) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "wheels = %ld", p3.as_int());\n'}
+[21.030691] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.032037] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.032433] (cpp04_param) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "wheels = %ld", p3.as_int());\n'}
+[21.032796] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.033133] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.033498] (cpp04_param) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "wheels = %ld", p3.as_int());\n'}
+[21.033860] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.034205] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.034568] (cpp04_param) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "wheels = %ld", p3.as_int());\n'}
+[21.034854] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.035094] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[21.035325] (cpp04_param) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->getlogger(), "wheels = %ld", p3.as_int());\n'}
+[21.035515] (cpp04_param) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.035765] (cpp04_param) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.036138] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.036461] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[21.036828] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.037154] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.037369] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.037588] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.037865] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.038160] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.038449] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.038658] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.038955] (cpp04_param) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17\x1b[m\x1b[K:\n'}
+[21.039262] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.039606] (cpp04_param) StderrLine: {'line': b'   33 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "wheels = %ld", p3.as_int());\n'}
+[21.039969] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.040272] (cpp04_param) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MyParam\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kgetlogger\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[21.040546] (cpp04_param) StderrLine: {'line': b'   33 |       RCLCPP_INFO(this->\x1b[01;31m\x1b[Kgetlogger\x1b[m\x1b[K(), "wheels = %ld", p3.as_int());\n'}
+[21.040890] (cpp04_param) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[21.075187] (-) TimerEvent: {}
+[21.175781] (-) TimerEvent: {}
+[21.276434] (-) TimerEvent: {}
+[21.377038] (-) TimerEvent: {}
+[21.477613] (-) TimerEvent: {}
+[21.578182] (-) TimerEvent: {}
+[21.678742] (-) TimerEvent: {}
+[21.779361] (-) TimerEvent: {}
+[21.879986] (-) TimerEvent: {}
+[21.980670] (-) TimerEvent: {}
+[22.082108] (-) TimerEvent: {}
+[22.183433] (-) TimerEvent: {}
+[22.228562] (cpp04_param) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76: CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] Error 1\n'}
+[22.229061] (cpp04_param) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo00_param.dir/all] Error 2\n'}
+[22.229474] (cpp04_param) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.232781] (cpp04_param) CommandEnded: {'returncode': 2}
+[22.283705] (-) TimerEvent: {}
+[22.318840] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 2}
+[22.331754] (-) EventReactorShutdown: {}

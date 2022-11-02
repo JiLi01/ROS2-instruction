@@ -1,0 +1,26 @@
+[0.038s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[0.124s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[6.890s] [100%] [32m[1mLinking CXX executable demo00_param[0m
+[7.171s] [100%] Built target demo00_param
+[7.185s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[7.230s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/ws01_plumbing/build/cpp04_param
+[7.240s] -- Install configuration: ""
+[7.241s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[7.243s] -- Set runtime path of "/home/jiaxin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param" to ""
+[7.244s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[7.244s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[7.245s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[7.245s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[7.245s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[7.246s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[7.246s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[7.247s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[7.247s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[7.248s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[7.248s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[7.250s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[7.250s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[7.251s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[7.251s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[7.258s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/ws01_plumbing/build/cpp04_param

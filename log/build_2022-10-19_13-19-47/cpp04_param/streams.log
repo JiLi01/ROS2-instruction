@@ -1,0 +1,237 @@
+[0.057s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaxin/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/jiaxin/ws01_plumbing/install/cpp04_param
+[1.449s] -- The C compiler identification is GNU 11.2.0
+[2.285s] -- The CXX compiler identification is GNU 11.2.0
+[2.741s] -- Detecting C compiler ABI info
+[3.051s] -- Detecting C compiler ABI info - done
+[3.062s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.063s] -- Detecting C compile features
+[3.065s] -- Detecting C compile features - done
+[3.070s] -- Detecting CXX compiler ABI info
+[3.350s] -- Detecting CXX compiler ABI info - done
+[3.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.374s] -- Detecting CXX compile features
+[3.375s] -- Detecting CXX compile features - done
+[3.390s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.894s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.055s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[4.554s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.568s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.596s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.803s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.811s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.932s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.951s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.147s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.411s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.542s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.543s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jiaxin/ws01_plumbing/src/cpp04_param/include>
+[13.543s] -- Configured cppcheck exclude dirs and/or files: 
+[13.545s] -- Added test 'lint_cmake' to check CMake code style
+[13.547s] -- Added test 'uncrustify' to check C / C++ code style
+[13.547s] -- Configured uncrustify additional arguments: 
+[13.549s] -- Added test 'xmllint' to check XML markup files
+[13.556s] -- Configuring done
+[13.590s] -- Generating done
+[13.596s] -- Build files have been written to: /home/jiaxin/ws01_plumbing/build/cpp04_param
+[13.614s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaxin/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/jiaxin/ws01_plumbing/install/cpp04_param
+[13.617s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[13.778s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[20.964s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[20.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.968s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[20.969s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::MyParam()[m[K’:
+[20.969s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.969s]    24 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"参数API使用");
+[20.970s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.970s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.971s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.971s]    24 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"参数API使用");
+[20.973s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.975s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[20.976s]    24 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"参数API使用");
+[20.977s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.978s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.978s]    24 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"参数API使用");
+[20.979s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.980s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[20.980s]    24 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"参数API使用");
+[20.980s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.980s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.981s]    24 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(),"参数API使用");
+[20.981s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.981s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[20.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.984s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[20.984s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.984s]    24 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"参数API使用");
+[20.984s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.984s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:24:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.984s]    24 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(),"参数API使用");
+[20.985s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.985s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[20.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.987s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[20.987s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.987s]    31 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "car_name = %s", p1.as_string().c_str());
+[20.987s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.988s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.988s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.988s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());
+[20.988s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.988s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[20.989s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());
+[20.989s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.989s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.989s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());
+[20.990s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.990s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[20.991s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());
+[20.991s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.992s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[20.993s]    31 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "car_name = %s", p1.as_string().c_str());
+[20.993s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[20.993s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[20.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[20.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[20.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[20.996s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[20.996s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.996s]    31 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "car_name = %s", p1.as_string().c_str());
+[20.997s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.997s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[20.997s]    31 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "car_name = %s", p1.as_string().c_str());
+[20.998s]       |                         [01;31m[K^~~~~~~~~[m[K
+[20.998s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[20.998s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[20.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.000s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[21.000s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.000s]    32 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "height = %.2f", p2.as_double());
+[21.001s]       |                         [01;31m[K^~~~~~~~~[m[K
+[21.001s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.001s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.001s]    32 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "height = %.2f", p2.as_double());
+[21.002s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.002s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.002s]    32 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "height = %.2f", p2.as_double());
+[21.002s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.003s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.003s]    32 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "height = %.2f", p2.as_double());
+[21.003s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.003s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.004s]    32 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "height = %.2f", p2.as_double());
+[21.004s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.004s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.004s]    32 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "height = %.2f", p2.as_double());
+[21.005s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.005s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[21.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.007s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.008s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.008s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[21.009s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.009s]    32 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "height = %.2f", p2.as_double());
+[21.010s]       |                         [01;31m[K^~~~~~~~~[m[K
+[21.010s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.011s]    32 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "height = %.2f", p2.as_double());
+[21.011s]       |                         [01;31m[K^~~~~~~~~[m[K
+[21.012s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.012s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[21.012s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.015s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.015s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[21.016s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.016s]    33 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "wheels = %ld", p3.as_int());
+[21.016s]       |                         [01;31m[K^~~~~~~~~[m[K
+[21.017s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.017s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.018s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "wheels = %ld", p3.as_int());
+[21.019s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.019s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.020s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "wheels = %ld", p3.as_int());
+[21.020s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.021s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.021s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "wheels = %ld", p3.as_int());
+[21.021s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.022s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[21.022s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "wheels = %ld", p3.as_int());
+[21.022s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.022s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[21.023s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->getlogger(), "wheels = %ld", p3.as_int());
+[21.023s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[21.023s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[21.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.026s]                  from [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17[m[K:
+[21.027s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.027s]    33 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "wheels = %ld", p3.as_int());
+[21.027s]       |                         [01;31m[K^~~~~~~~~[m[K
+[21.028s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MyParam[m[K’ has no member named ‘[01m[Kgetlogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[21.028s]    33 |       RCLCPP_INFO(this->[01;31m[Kgetlogger[m[K(), "wheels = %ld", p3.as_int());
+[21.028s]       |                         [01;31m[K^~~~~~~~~[m[K
+[22.216s] gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76: CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] Error 1
+[22.216s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo00_param.dir/all] Error 2
+[22.217s] gmake: *** [Makefile:146: all] Error 2
+[22.221s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp04_param -- -j4 -l4

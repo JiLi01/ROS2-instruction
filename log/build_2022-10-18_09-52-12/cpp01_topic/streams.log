@@ -1,0 +1,15 @@
+[0.146s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.224s] [ 25%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.600s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.600s] (.text+0x1b): undefined reference to `main'
+[0.603s] collect2: error: ld returned 1 exit status
+[0.605s] gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:167: demo04_listener_stu] Error 1
+[0.606s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo04_listener_stu.dir/all] Error 2
+[0.606s] gmake[1]: *** Waiting for unfinished jobs....
+[8.500s] [ 75%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[8.950s] [ 75%] Built target demo03_talker_stu
+[8.952s] gmake: *** [Makefile:146: all] Error 2
+[8.955s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

@@ -1,0 +1,13 @@
+[0.152s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target demo05_test_pub[0m
+[0.238s] [ 33%] Built target demo03_talker_stu
+[0.248s] [ 66%] Built target demo04_listener_stu
+[0.251s] [ 83%] [32mBuilding CXX object CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o[0m
+[5.114s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[5.114s] [01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:16:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[5.115s]    16 |     : Node("talker_node_cpp",[01;31m[K,[m[Krclcpp::NodeOptions().allow_undeclared_parameters(true)),
+[5.115s]       |                              [01;31m[K^[m[K
+[6.752s] gmake[2]: *** [CMakeFiles/demo05_test_pub.dir/build.make:76: CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o] Error 1
+[6.752s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo05_test_pub.dir/all] Error 2
+[6.753s] gmake: *** [Makefile:146: all] Error 2
+[6.757s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

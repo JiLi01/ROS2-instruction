@@ -1,0 +1,53 @@
+[0.329s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.602s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.444s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.690s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.695s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.708s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.901s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.907s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.370s] -- Found base_interfaces_demo: 0.0.0 (/home/jiaxin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[10.421s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.561s] -- Configured cppcheck include dirs: 
+[10.561s] -- Configured cppcheck exclude dirs and/or files: 
+[10.563s] -- Added test 'lint_cmake' to check CMake code style
+[10.564s] -- Added test 'uncrustify' to check C / C++ code style
+[10.565s] -- Configured uncrustify additional arguments: 
+[10.565s] -- Added test 'xmllint' to check XML markup files
+[10.570s] -- Configuring done
+[10.621s] -- Generating done
+[10.626s] -- Build files have been written to: /home/jiaxin/ws01_plumbing/build/cpp01_topic
+[10.670s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[10.670s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[10.685s] [ 16%] [32mBuilding CXX object CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o[0m
+[10.713s] [ 50%] Built target demo04_listener_stu
+[10.718s] [ 83%] Built target demo03_talker_stu
+[20.031s] [100%] [32m[1mLinking CXX executable demo05_test_pub[0m
+[20.570s] [100%] Built target demo05_test_pub
+[20.586s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[20.653s] Invoking command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/ws01_plumbing/build/cpp01_topic
+[20.664s] -- Install configuration: ""
+[20.669s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[20.671s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[20.671s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo05_test_pub
+[20.675s] -- Set runtime path of "/home/jiaxin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo05_test_pub" to ""
+[20.675s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[20.677s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[20.677s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[20.678s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[20.679s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[20.679s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[20.680s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[20.681s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[20.681s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[20.681s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[20.681s] -- Installing: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[20.681s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[20.682s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[20.682s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[20.683s] -- Up-to-date: /home/jiaxin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[20.686s] Invoked command in '/home/jiaxin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/ws01_plumbing/install/base_interfaces_demo:/home/jiaxin/ws01_plumbing/install/cpp04_param:/home/jiaxin/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/ws01_plumbing/build/cpp01_topic

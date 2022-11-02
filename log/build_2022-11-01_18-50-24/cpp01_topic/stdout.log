@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target demo05_test_pub[0m
+[ 33%] Built target demo04_listener_stu
+[ 66%] Built target demo03_talker_stu
+[ 83%] [32mBuilding CXX object CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o[0m

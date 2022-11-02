@@ -1,0 +1,13 @@
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:16:32:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K,[m[K’ token
+   16 |     : Node("talker_node_cpp"), [01;31m[K,[m[Krclcpp::NodeOptions().allow_undeclared_parameters(true),
+      |                                [01;31m[K^[m[K
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:16:41:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::NodeOptions[m[K’ is not a direct base of ‘[01m[KTalkerStu[m[K’
+   16 |     : Node("talker_node_cpp"), ,rclcpp::[01;31m[KNodeOptions[m[K().allow_undeclared_parameters(true),
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:16:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K.[m[K’ token
+   16 |     : Node("talker_node_cpp"), ,rclcpp::NodeOptions()[01;31m[K.[m[Kallow_undeclared_parameters(true),
+      |                                                      [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo05_test_pub.dir/build.make:76: CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo05_test_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

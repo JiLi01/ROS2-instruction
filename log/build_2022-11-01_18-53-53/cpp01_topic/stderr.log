@@ -1,0 +1,9 @@
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:[m[K In member function ‘[01m[Kvoid TalkerStu::on_timer()[m[K’:
+[01m[K/home/jiaxin/ws01_plumbing/src/cpp01_topic/src/demo05_test_pub.cpp:33:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kbase_interfaces_demo::msg::Student_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   33 |       stu.height = [01;31m[Kthis->get_parameter("height")[m[K;;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Krclcpp::Parameter[m[K
+gmake[2]: *** [CMakeFiles/demo05_test_pub.dir/build.make:76: CMakeFiles/demo05_test_pub.dir/src/demo05_test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo05_test_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
